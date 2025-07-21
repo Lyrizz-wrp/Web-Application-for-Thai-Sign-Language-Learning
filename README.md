@@ -43,19 +43,3 @@ This app uses **PyThaiNLP** to intelligently segment Thai words and match them w
 - Node.js (optional, for frontend server)
 - pip
 
-### 📥 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/thai-sign-language-webapp.git
-cd thai-sign-language-webapp
-
-# Create virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Run the Flask backend
-python backend/server.py
